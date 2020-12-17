@@ -1,0 +1,64 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Fira Code', monospace;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 30px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.123);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.123);
+}
+
+nav h1:hover {
+  color: #558B2F;
+  cursor: default;
+}
+
+#links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#links li {
+  margin-left: 30px;
+}
+
+#links li a {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#links li a:hover {
+  color: #558B2F;
+}
+/*# sourceMappingURL=style.css.map */
